@@ -1,0 +1,35 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    width: 70%;
+    border: none;
+    outline: none;
+    margin: 0 auto;
+    border-spacing: 0 1rem;
+}
+table tr:has(>td) {
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.363);
+    border-radius: 1rem;
+}
+table td {
+    border: 1px solid rgba(0, 0, 0, 0.159);
+    border-right: none;
+    border-left: none;
+    background-color: #edf6fb;
+}
+table td:first-child {
+    border-left: 1px solid rgba(0, 0, 0, 0.159);
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+table td:last-child {
+    border-right: 1px solid rgba(0, 0, 0, 0.159);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+table td {
+    text-align: center;
+    padding: .4rem;
+}
